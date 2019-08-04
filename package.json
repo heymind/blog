@@ -23,6 +23,7 @@
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-twemoji": "^0.2.3",
+    "react-valine": "^0.3.9",
     "rehype-slug": "^2.0.3",
     "remark-slug": "^5.1.2",
     "remark-toc": "^5.1.1",

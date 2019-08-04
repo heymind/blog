@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind utilities;
+body *{
+    transition: all .3s ease;
+}
+/* .transition { transition: all .3s ease; }
+.transition-slow { transition: all 2s ease; }
+.transition-normal-in-out-quad { transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+.transition-slow-in-out-quad { transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955); } */
+
+.SubHeader {
+    @apply w-full py-2 my-3 border-solid border-b border-purple-400 text-purple-800 flex;
+    & h2 {
+        @apply font-semibold tracking-wider text-lg py-1;
+    }
+    & .extra {
+        @apply font-light tracking-widest;
+    }
+}
+

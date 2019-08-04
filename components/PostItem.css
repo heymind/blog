@@ -1,0 +1,22 @@
+.PostItem {
+    @apply  items-center py-1 px-2 flex flex-row cursor-default  rounded tracking-wider;
+    &:hover {
+        @apply bg-purple-100;
+        & .tag {
+            display: block !important;
+        }
+    }
+    & .title {
+        @apply inline-block border-solid border-b border-purple-500 text-lg flex-grow-0 ml-1;
+    }
+    & .tags {
+        @apply flex-grow flex justify-end;
+    }
+    & .tag {
+        @apply hidden text-purple-400  mr-3 text-sm items-baseline border-transparent border-b ;
+        &:hover{
+            @apply border-purple-500;
+        }
+    }
+
+}

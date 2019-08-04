@@ -1,0 +1,16 @@
+.TopBar {
+    & .nav {
+        & .route {
+            @apply flex items-center justify-center rounded p-1;
+            &:hover {
+                cursor: pointer;
+            }
+            & span {
+                @apply border-b  border-transparent;
+                &:hover {
+                    @apply border-purple-500 text-purple-700;
+                }
+            }
+        }
+    }
+}
